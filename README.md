@@ -15,7 +15,7 @@ A desktop app designed to help plant enthusiasts keep track of their flowers and
 
 ## Roadmap
 
-- Flower Information Management: CRUD + Search and Filter Flowers
+- ~~Flower Information Management: CRUD + Search and Filter Flowers~~
 
 - Watering and Maintenance Schedule: CRUD
 
