@@ -2,13 +2,13 @@ package src.backend.utils;
 
 import java.time.LocalDate;
 import java.util.List;
-import models.Flower;
+import src.backend.models.Flower;
 
 public class FlowerValidator {
 
-    /**
-     * Validates all fields of a new Flower.
-     */
+
+    //Validates all fields of a new Flower.
+
     public static void validateFlower(Flower flower) {
         if (flower == null) {
             throw new IllegalArgumentException("Flower cannot be null.");
@@ -33,10 +33,8 @@ public class FlowerValidator {
         }
     }
 
-    /**
-     * Validates new fields for updating a Flower.
-     * Only validates fields that are provided (non-null).
-     */
+    //Validates new fields for updating a Flower.
+    //Only validates fields that are provided (non-null).
     public static void validateUpdateFields(String name, String species, String color, LocalDate plantingDate) {
         if (name != null && StringUtils.isNullOrEmpty(name)) {
             throw new IllegalArgumentException("Updated name cannot be empty.");
@@ -52,10 +50,8 @@ public class FlowerValidator {
         }
     }
 
-    /**
-     * Checks for duplicates in the given list of Flowers.
-     * Duplicate if same name, species, and planting date.
-     */
+    //Checks for duplicates in the given list of Flowers.
+    //Duplicate if same name, species, and planting date.
     public static void checkDuplicate(Flower newFlower, List<Flower> existingFlowers) {
         for (Flower f : existingFlowers) {
             boolean sameName = f.getName().equalsIgnoreCase(newFlower.getName());
@@ -63,9 +59,7 @@ public class FlowerValidator {
             boolean sameDate = f.getPlantingDate().equals(newFlower.getPlantingDate());
 
             if (sameName && sameSpecies && sameDate) {
-                throw new IllegalArgumentException(
-                    "Duplicate flower detected (same name, species, and planting date)."
-                );
+                throw new IllegalArgumentException("Duplicate flower detected (same name, species, and planting date).");
             }
         }
     }
