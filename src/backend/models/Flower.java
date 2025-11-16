@@ -18,6 +18,13 @@ public class Flower {
         this.plantingDate = plantingDate;
     }
 
+    public Flower(String name, String species, String color, LocalDate plantingDate) {
+        this.name = name;
+        this.species = species;
+        this.color = color;
+        this.plantingDate = plantingDate;
+    }
+
     //getters
     public int getId(){
         return id;
