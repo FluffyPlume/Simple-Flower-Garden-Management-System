@@ -1,12 +1,12 @@
-package backend.services;
+package services;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-import backend.models.Flower;
-import backend.utils.FlowerValidator;
-import backend.utils.GenericIdValidator;
+import models.Flower;
+import utils.FlowerValidator;
+import utils.GenericIdValidator;
 
 public class FlowerService {
     

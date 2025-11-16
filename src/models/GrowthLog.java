@@ -1,4 +1,4 @@
-package backend.models;
+package models;
 import java.time.LocalDate;
 
 public class GrowthLog {

@@ -1,4 +1,4 @@
-package backend.utils;
+package utils;
 
 import java.util.List;
 import java.util.function.ToIntFunction;

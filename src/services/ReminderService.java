@@ -1,4 +1,4 @@
-package backend.services;
+package services;
 
 public class ReminderService {
     

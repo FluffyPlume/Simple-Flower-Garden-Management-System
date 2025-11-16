@@ -1,10 +1,10 @@
-package backend.demo;
+package demo;
 
 import java.time.LocalDate;
 import java.util.Scanner;
 
-import backend.models.Flower;
-import backend.services.FlowerService;
+import models.Flower;
+import services.FlowerService;
 
 public class DebugMain {
 

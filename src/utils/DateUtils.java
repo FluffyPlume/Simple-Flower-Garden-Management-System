@@ -1,4 +1,4 @@
-package backend.utils;
+package utils;
 
 import java.time.LocalDate;
 
