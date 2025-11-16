@@ -1,4 +1,4 @@
-package src.backend.services;
+package backend.services;
 
 public class GrowthLogService {
     

@@ -1,8 +1,9 @@
-package src.backend.utils;
+package backend.utils;
 
 import java.time.LocalDate;
 import java.util.List;
-import src.backend.models.Flower;
+
+import backend.models.Flower;
 
 public class FlowerValidator {
 

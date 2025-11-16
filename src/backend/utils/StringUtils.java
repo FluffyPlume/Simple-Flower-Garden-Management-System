@@ -1,4 +1,4 @@
-package src.backend.utils;
+package backend.utils;
 
 public class StringUtils {
 
