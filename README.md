@@ -26,7 +26,6 @@ A desktop app designed to help plant enthusiasts keep track of their flowers and
 - MySQL Integration
 
 - GUI
-## Documentation
-
-[Documentation](https://docs.google.com/document/d/1o1s4JGACXCkRfxnsd1qMow7wGLqVBLo2dJHHMjzy8Lo/edit?usp=sharing)
+## Note
+This is where I will put my contributions.
 
