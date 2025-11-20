@@ -26,6 +26,7 @@ A desktop app designed to help plant enthusiasts keep track of their flowers and
 - MySQL Integration
 
 - GUI
-## Note
+## Note (PLEASE READ)
 This is where I will put my contributions.
+I’ll implement the CRUD operations using an ArrayList first, then integrate MySQL and Spring Boot later. I can finish the temporary version if needed, but I plan to do it after the Linear Algebra exam next week.
 
